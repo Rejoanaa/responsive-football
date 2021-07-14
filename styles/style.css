@@ -203,7 +203,7 @@ header{
     }
     .footer-part{
        width: 200px;
-       margin-left: 0;
+       margin-left: 60px;
        justify-content: left;
     }
     footer{
