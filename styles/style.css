@@ -7,11 +7,18 @@ body{
 header{
     width: 1440px;
     height: 677px;
-    background-color:#2D25A0;
+    background-color:darkviolet;
    
     padding-bottom: 200px;
     margin-bottom: 70px;
 
+}
+header:hover button{
+    background-color: darkturquoise;
+    transform: scale(1.5);
+}
+header:hover .head-img img{
+    transform:translate(-100px)
 }
 .head{
     display: flex;
@@ -34,13 +41,13 @@ button{
     width: 168px;
     margin-top: 11px;
     color:#FFFFFF;
-    ;
     background-color:#E02C6D;
-    ;
+    transition: transform 5s linear;
 }
 .head-img img{
     width: 656px;
     height: 438px;
+    transition: transform 5s ease-in-out;
    
 }
 
@@ -82,9 +89,47 @@ padding-top: 15px;
     font-weight: 700;
 }
 /* top player sectionmstyle end  */
+/* bonus section style 1 */
+/* form section  */
+.form{
+    height: 500px;
+    width: 950px;
+    margin-top: 70px;
+    margin-left: 210px;
+    margin-right: 210px;
+    
+}
+.form p{
+    background-color:slategray;
+    color: white;
+}
+/* bonus section style 2 */
+.transformm{
+    background-color: darkviolet;
+    height: 500px;
+    width: 950px;
+    margin-top: 70px;
+    margin-left: 210px;
+    margin-right: 210px;
+    
+}
+.transformm h6{
+    font-size: 30px;
+    text-align: center;
+}
 
+.football-image img{
+    height: 256px;
+    width: 300px;
+    position: relative;
+    margin-top: 30px;
+   transition: transform 2s linear ;
 
-
+}
+.transformm:hover .football-image img{
+   
+    transform: translate(680px) rotate(180deg) ;
+}
 /* footer section style  */
 footer{
     width: 1440px;
@@ -114,3 +159,7 @@ footer{
 .copyright{
 font-size: 18px   
 }
+
+
+
+
